@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Aptitude Calculator</string>
+    <string name="welcome">WELCOME</string>
+    <string name="go_to_aptitude_calculator"><![CDATA[Go to Aptitude Calculator ->  ]]></string>
+    <string name="click">Click</string>
+    <string name="hello">hello</string>
+    <string name="select_from_below">Select From Below</string>
+    <string name="divisibility">DIVISIBILITY</string>
+    <string name="hcf_amp_lcm"><![CDATA[HCF & LCM]]></string>
 </resources>
