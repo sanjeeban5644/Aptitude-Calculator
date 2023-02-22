@@ -7,4 +7,8 @@
     <string name="select_from_below">Select From Below</string>
     <string name="divisibility">DIVISIBILITY</string>
     <string name="hcf_amp_lcm"><![CDATA[HCF & LCM]]></string>
+    <string name="sen1">\'Enter the numbers one by one. Press Submit to calculate</string>
+    <string name="enter_the_number">Enter the Number:</string>
+    <string name="submit">Submit</string>
+    <string name="input_number">Input NUmber</string>
 </resources>

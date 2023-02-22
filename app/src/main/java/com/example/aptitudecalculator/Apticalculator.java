@@ -16,12 +16,12 @@ public class Apticalculator extends AppCompatActivity {
 
         Button hcflcm = findViewById(R.id.hcf_lcm);
 
-//        hcflcm.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(Apticalculator.this,MainActivity.class);
-//                startActivity(intent);
-//            }
-//        });
+        hcflcm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Apticalculator.this,calc_hcflcm.class);
+                startActivity(intent);
+            }
+        });
     }
 }

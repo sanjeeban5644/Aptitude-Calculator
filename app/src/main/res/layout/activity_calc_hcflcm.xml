@@ -11,9 +11,90 @@
     android:background="#87CEEB"
     tools:context=".calc_hcflcm">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hcf_amp_lcm"
+            android:textStyle="bold"
+            android:textColor="#A52A2A"
+            android:textSize="25sp"
+            android:layout_marginBottom="75dp"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="40dp"
+            >
+        <EditText
+            android:id="@+id/hcflcmenternumber"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:hint="@string/enter_the_number"
+            android:layout_marginRight="30dp"
+            android:inputType="numberDecimal"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/continue_entering_hcflcm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="@string/input_number"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="20dp"
+            app:cornerRadius="10dp"/>
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/submit_hcflcm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="@string/submit"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center"
+            app:cornerRadius="20dp"
+            app:rippleColor="#FF0000"
+            />
+
+        <TextView
+            android:id="@+id/showlcm"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#A52A2A"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/showhcf"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#A52A2A"
+            android:textSize="20sp"
+            />
 
 
 
 
 
-</ScrollView>
+
+    </LinearLayout>
+
+
+
+
+
+            </ScrollView>
+
+
+
+
