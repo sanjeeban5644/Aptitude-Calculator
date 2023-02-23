@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
+import java.math.BigDecimal;
 
 public class calc_hcflcm extends AppCompatActivity {
 
@@ -27,6 +28,7 @@ public class calc_hcflcm extends AppCompatActivity {
         //String num ;
         List<Float> list = new ArrayList<>();
         Stack<Float> st = new Stack<>();
+        final int[] max_scale = {0};
 
 
         //defing the buton and edittext and textview
@@ -35,14 +37,19 @@ public class calc_hcflcm extends AppCompatActivity {
         Button submit = findViewById(R.id.submit_hcflcm);
         TextView display_hcf = findViewById(R.id.showhcf);
         TextView display_lcm = findViewById(R.id.showlcm);
+        Button clear = findViewById(R.id.clear_1);
 
 
         continue_entering.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 String num = inputnumber.getText().toString();
                 try{
                         float val = Float.parseFloat(num);
+                        BigDecimal bd = new BigDecimal(num);
+                        int sc = bd.scale();
+                        if(sc> max_scale[0]) max_scale[0] =sc;
                         st.push(val);
                         Toast.makeText(getApplicationContext(),"Number successfully added",Toast.LENGTH_SHORT).show();
                 }catch(NumberFormatException e){
@@ -56,43 +63,63 @@ public class calc_hcflcm extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(st.isEmpty()){
-                    Intent intent = new Intent(calc_hcflcm.this,Apticalculator.class);
-                    startActivity(intent);
-                }
+//                if(st.isEmpty()){
+//                    Intent intent = new Intent(calc_hcflcm.this,Apticalculator.class);
+//                    startActivity(intent);
+//                }
+
+
                 float temp_hcf = 1.0f;
                 float temp_lcm = 0.0f;
                 try{
-                    temp_hcf = st.pop();
+                    float t = st.pop();
+                    for(int i = 1;i<=max_scale[0];i++){
+                        t*=10;
+                    }
+                    temp_hcf = t;
                     temp_lcm = temp_hcf;
 
                     while(!st.isEmpty()){
+
                         float num = st.pop();
+
+                        for(int i = 1; i<= max_scale[0]; i++){
+                            num*=10;
+                        }
+
                         float new_hcf = hcf(temp_hcf,num);
                         temp_hcf=new_hcf;
                         float new_lcm = lcm(temp_lcm,num);
                         temp_lcm=new_lcm;
                     }
+                    //calculating the output;
+                    for(int i = 1;i<=max_scale[0];i++){
+                        temp_hcf/=10;
+                    }
+                    for(int i = 1;i<=max_scale[0];i++){
+                        temp_lcm/=10;
+                    }
+
+
                     //displaying the output;
 
-                    display_hcf.setText("The HCF of the given numbers are: "+Float.toString(temp_hcf));
-                    display_lcm.setText("The LCM of the given numbers are: "+Float.toString(temp_lcm));
+                    display_hcf.setText("HCF : "+Float.toString(temp_hcf));
+                    display_lcm.setText("LCM : "+Float.toString(temp_lcm));
                     Toast.makeText(getApplicationContext(),"Operation Performed successfully",Toast.LENGTH_SHORT).show();
                 }catch(Exception e){
                     Toast.makeText(getApplicationContext(),"Invalid",Toast.LENGTH_SHORT).show();
                     st.clear();
                 }
-
-
-
-
-
-
-
-
             }
+        });
 
-
+        clear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                st.clear();
+                display_hcf.setText("");
+                display_lcm.setText("");
+            }
         });
 
     }

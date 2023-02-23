@@ -75,7 +75,7 @@
                 android:textColor="#A52A2A"
                 />
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/divisible"
+                android:id="@+id/divisibility"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
@@ -86,7 +86,145 @@
                 app:cornerRadius="10dp"/>
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="20dp"
+            >
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="@string/percentages"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#A52A2A"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/percentages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/click"
+                android:backgroundTint="@color/white"
+                android:layout_marginLeft="20dp"
+                app:cornerRadius="10dp"/>
+        </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="20dp"
+            >
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="PROFIT &amp; LOSS"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#A52A2A"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/profitloss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/click"
+                android:backgroundTint="@color/white"
+                android:layout_marginLeft="20dp"
+                app:cornerRadius="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="20dp"
+            >
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="55dp"
+                android:text="SIMPLE &amp; COMPOUND INTEREST"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#A52A2A"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/simplecompound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/click"
+                android:backgroundTint="@color/white"
+                android:layout_marginLeft="20dp"
+                app:cornerRadius="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="20dp"
+            >
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="SPEED, TIME &amp; DISTANCE"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#A52A2A"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/std"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/click"
+                android:backgroundTint="@color/white"
+                android:layout_marginLeft="20dp"
+                app:cornerRadius="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="20dp"
+            >
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="TIME &amp; WORK"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#A52A2A"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/timework"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/click"
+                android:backgroundTint="@color/white"
+                android:layout_marginLeft="20dp"
+                app:cornerRadius="10dp"/>
+        </LinearLayout>
 
 
     </LinearLayout>

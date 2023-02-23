@@ -72,6 +72,7 @@
             android:layout_height="50dp"
             android:textColor="#A52A2A"
             android:textSize="20sp"
+            android:textStyle="bold"
             />
         <TextView
             android:id="@+id/showhcf"
@@ -80,6 +81,21 @@
             android:layout_height="50dp"
             android:textColor="#A52A2A"
             android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/clear_1"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="@string/clear"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center"
+            app:cornerRadius="20dp"
+            app:rippleColor="#FF0000"
             />
 
 

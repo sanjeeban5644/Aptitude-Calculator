@@ -11,4 +11,13 @@
     <string name="enter_the_number">Enter the Number:</string>
     <string name="submit">Submit</string>
     <string name="input_number">Input NUmber</string>
+    <string name="clear">clear</string>
+    <string name="percentages">PERCENTAGES</string>
+    <string name="enter_atleast_2_fields">ENTER ATLEAST 2 FIELDS</string>
+    <string name="enter_profit">Enter Profit:</string>
+    <string name="enter_loss">Enter Loss:</string>
+    <string name="enter_profit_per">Enter Profit %:</string>
+    <string name="enter_loss_per">Enter Loss %:</string>
+    <string name="enter_cp">Enter Cost Price:</string>
+    <string name="enter_selling_price">Enter Selling Price:</string>
 </resources>
