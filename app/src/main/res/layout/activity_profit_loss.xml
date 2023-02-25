@@ -41,7 +41,7 @@
             android:id="@+id/loss_i"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:hint="@string/enter_loss"
             android:textColor="@color/black"
             android:textSize="20sp"
@@ -53,7 +53,7 @@
             android:id="@+id/profit_p"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:hint="@string/enter_profit_per"
             android:textColor="@color/black"
             android:textSize="20sp"
@@ -64,7 +64,7 @@
             android:id="@+id/loss_p"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:hint="@string/enter_loss_per"
             android:textColor="@color/black"
             android:textSize="20sp"
@@ -75,7 +75,7 @@
             android:id="@+id/cp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:hint="@string/enter_cp"
             android:textColor="@color/black"
             android:textSize="20sp"
@@ -86,7 +86,7 @@
             android:id="@+id/sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:hint="@string/enter_selling_price"
             android:textColor="@color/black"
             android:textSize="20sp"
@@ -102,10 +102,141 @@
             android:textStyle="bold"
             android:text="@string/submit"
             android:backgroundTint="@color/white"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="20dp"
             android:layout_gravity="center"
             app:rippleColor="#FF0000"
             app:cornerRadius="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:id="@+id/plheading"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                android:textColor="@color/black"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/plperheading"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:id="@+id/plvalue"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                android:textColor="#FF0000"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:id="@+id/plpervalue"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                android:textColor="#FF0000"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:id="@+id/spheading"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                android:textColor="@color/black"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/cpheading"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:id="@+id/spvalue"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                android:textColor="#FF0000"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/cpvalue"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                android:textColor="#FF0000"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/pl_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="@string/clear"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            app:rippleColor="#FF0000"
+            app:cornerRadius="20dp"/>
+
 
 
     </LinearLayout>
