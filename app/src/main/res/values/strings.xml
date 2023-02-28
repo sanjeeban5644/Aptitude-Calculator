@@ -20,4 +20,11 @@
     <string name="enter_loss_per">Enter Loss %:</string>
     <string name="enter_cp">Enter Cost Price:</string>
     <string name="enter_selling_price">Enter Selling Price:</string>
+    <string name="enter_here">Enter here</string>
+    <string name="enter">Enter</string>
+    <string name="enter_value">Enter value</string>
+    <string name="percent_symbol">%</string>
+    <string name="of">of</string>
+    <string name="calculate_value">Calculate Value</string>
+    <string name="calculate_percentage">Calculate Percentage</string>
 </resources>

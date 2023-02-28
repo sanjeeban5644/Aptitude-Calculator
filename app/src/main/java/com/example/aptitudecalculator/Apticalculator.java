@@ -16,6 +16,8 @@ public class Apticalculator extends AppCompatActivity {
 
         Button hcflcm = findViewById(R.id.hcf_lcm);
         Button profitloss = findViewById(R.id.profitloss);
+        Button divisible = findViewById(R.id.divisibility);
+        Button percentage = findViewById(R.id.percentages);
 
         hcflcm.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,6 +31,22 @@ public class Apticalculator extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Apticalculator.this,ProfitLoss.class);
+                startActivity(intent);
+            }
+        });
+
+        divisible.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Apticalculator.this,divisibility.class);
+                startActivity(intent);
+            }
+        });
+
+        percentage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Apticalculator.this,Percentages.class);
                 startActivity(intent);
             }
         });

@@ -12,6 +12,12 @@
         android:theme="@style/Theme.AptitudeCalculator"
         tools:targetApi="31">
         <activity
+            android:name=".Percentages"
+            android:exported="false" />
+        <activity
+            android:name=".divisibility"
+            android:exported="false" />
+        <activity
             android:name=".ProfitLoss"
             android:exported="false" />
         <activity
