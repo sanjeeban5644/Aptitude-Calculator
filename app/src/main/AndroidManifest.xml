@@ -12,11 +12,16 @@
         android:theme="@style/Theme.AptitudeCalculator"
         tools:targetApi="31">
         <activity
-            android:name=".formula_mainpage"
+            android:name=".Interest"
             android:exported="false" />
         <activity
-            android:name=".Quiz_mainpage"
-            android:exported="false" />
+            android:name=".speedtime"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".formula_mainpage" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".Quiz_mainpage" -->
+        <!-- android:exported="false" /> -->
         <activity
             android:name=".Percentages"
             android:exported="false" />

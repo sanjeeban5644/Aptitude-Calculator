@@ -33,9 +33,15 @@ public class Percentages extends AppCompatActivity {
         clear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = getIntent();
-                finish();
-                startActivity(intent);
+//                Intent intent = getIntent();
+//                finish();
+//                startActivity(intent);
+                percent.setText("");
+                value.setText("");
+                ans1.setText("");
+                val1.setText("");
+                val2.setText("");
+                ans2.setText("");
             }
         });
 

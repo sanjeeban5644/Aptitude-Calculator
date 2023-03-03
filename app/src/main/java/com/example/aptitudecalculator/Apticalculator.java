@@ -18,6 +18,29 @@ public class Apticalculator extends AppCompatActivity {
         Button profitloss = findViewById(R.id.profitloss);
         Button divisible = findViewById(R.id.divisibility);
         Button percentage = findViewById(R.id.percentages);
+        Button speed = findViewById(R.id.speed);
+        Button interest = findViewById(R.id.simplecompound);
+
+
+
+
+        interest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Apticalculator.this,Interest.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+        speed.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Apticalculator.this,speedtime.class);
+                startActivity(intent);
+            }
+        });
 
 
         hcflcm.setOnClickListener(new View.OnClickListener() {

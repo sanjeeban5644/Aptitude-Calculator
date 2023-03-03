@@ -29,4 +29,11 @@
     <string name="calculate_percentage">Calculate Percentage</string>
     <string name="take_a_quiz"><![CDATA[Take a quiz ->]]></string>
     <string name="revise_formulas"><![CDATA[revise formulas ->]]></string>
+    <string name="unit_coversions">Unit Coversions</string>
+    <string name="km_hr">km/hr</string>
+    <string name="convert">Convert</string>
+    <string name="m_s">m/s</string>
+    <string name="enter_value_in_km_hr">Enter value in km/hr</string>
+    <string name="enter_value_in_m_s">Enter value in m/s</string>
+
 </resources>

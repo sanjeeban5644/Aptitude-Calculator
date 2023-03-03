@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    android:padding="24dp"
+    android:scrollbars="none"
+    android:background="#87CEEB"
+    tools:context=".speedtime">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unit_coversions"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="#A52A2A"
+            android:background="@drawable/background1"
+            />
+
+
+
+            <EditText
+                android:id="@+id/kminput"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:inputType="numberDecimal"
+                android:textSize="30sp"
+                android:hint="@string/enter_value_in_km_hr"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                />
+            <EditText
+                android:id="@+id/minput"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:inputType="numberDecimal"
+                android:textSize="30sp"
+                android:hint="@string/enter_value_in_m_s"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/convert1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:rippleColor="#FF0000"
+                android:text="@string/convert"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/white"
+                app:cornerRadius="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/ans_std"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="#A52A2A"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/clear_std"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:rippleColor="#FF0000"
+            android:text="@string/clear"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/white"
+            app:cornerRadius="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center"
+            />
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
