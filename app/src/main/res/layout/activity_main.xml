@@ -58,6 +58,15 @@
         </LinearLayout>
 
 
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:src="@drawable/img_1"
+            />
+
+
 
 
     </LinearLayout>

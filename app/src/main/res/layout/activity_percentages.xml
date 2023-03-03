@@ -27,6 +27,7 @@
             android:textStyle="bold"
             android:textAlignment="center"
             android:textColor="#A52A2A"
+            android:background="@drawable/background1"
             />
         <LinearLayout
             android:layout_width="match_parent"
@@ -38,7 +39,7 @@
                 android:id="@+id/per_pertoval"
                 android:layout_width="120dp"
                 android:layout_height="60dp"
-                android:background="@drawable/border"
+
                 android:textColor="@color/black"
                 android:inputType="numberDecimal"
                 android:textSize="20sp"
@@ -67,7 +68,7 @@
                 android:id="@+id/val_pertoval"
                 android:layout_width="120dp"
                 android:layout_height="60dp"
-                android:background="@drawable/border"
+
                 android:textColor="@color/black"
                 android:inputType="numberDecimal"
                 android:textSize="20sp"
@@ -101,10 +102,9 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:textStyle="bold"
             android:textAlignment="center"
-            android:background="@drawable/answer_box"
             android:textColor="@color/black"
             />
 
@@ -118,6 +118,7 @@
             android:textStyle="bold"
             android:textAlignment="center"
             android:textColor="#A52A2A"
+            android:background="@drawable/background1"
             />
         <LinearLayout
             android:layout_width="match_parent"
@@ -130,7 +131,7 @@
                 android:id="@+id/val1_valtoper"
                 android:layout_width="120dp"
                 android:layout_height="60dp"
-                android:background="@drawable/border"
+
                 android:textColor="@color/black"
                 android:inputType="numberDecimal"
                 android:textSize="20sp"
@@ -152,7 +153,7 @@
                 android:id="@+id/val2_valtoper"
                 android:layout_width="120dp"
                 android:layout_height="60dp"
-                android:background="@drawable/border"
+
                 android:textColor="@color/black"
                 android:inputType="numberDecimal"
                 android:textSize="20sp"
@@ -193,10 +194,10 @@
                android:layout_gravity="center_horizontal"
                android:layout_width="150dp"
                android:layout_height="wrap_content"
-               android:textSize="20sp"
+               android:textSize="25sp"
                android:textStyle="bold"
                android:textAlignment="center"
-               android:background="@drawable/answer_box"
+
                android:textColor="@color/black"
                android:layout_marginLeft="100dp"
 

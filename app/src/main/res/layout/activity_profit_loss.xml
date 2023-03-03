@@ -19,12 +19,22 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/enter_atleast_2_fields"
+            android:text="@string/profit_amp_loss"
             android:textColor="#A52A2A"
             android:textSize="25sp"
             android:textStyle="bold"
             android:gravity="center"
+            android:background="@drawable/background1"
             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_atleast_2_fields"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
         <EditText
             android:id="@+id/profit_i"
             android:layout_width="match_parent"

@@ -13,7 +13,7 @@
     <string name="input_number">Input NUmber</string>
     <string name="clear">clear</string>
     <string name="percentages">PERCENTAGES</string>
-    <string name="enter_atleast_2_fields">ENTER ATLEAST 2 FIELDS</string>
+    <string name="enter_atleast_2_fields">Enter atleast 2 fields</string>
     <string name="enter_profit">Enter Profit:</string>
     <string name="enter_loss">Enter Loss:</string>
     <string name="enter_profit_per">Enter Profit %:</string>
@@ -29,11 +29,20 @@
     <string name="calculate_percentage">Calculate Percentage</string>
     <string name="take_a_quiz"><![CDATA[Take a quiz ->]]></string>
     <string name="revise_formulas"><![CDATA[revise formulas ->]]></string>
-    <string name="unit_coversions">Unit Coversions</string>
+    <string name="unit_coversions">Unit Conversions</string>
     <string name="km_hr">km/hr</string>
     <string name="convert">Convert</string>
     <string name="m_s">m/s</string>
     <string name="enter_value_in_km_hr">Enter value in km/hr</string>
     <string name="enter_value_in_m_s">Enter value in m/s</string>
+    <string name="simple_interest">Simple Interest</string>
+    <string name="enter_atleast_3_fields">Enter atleast 3 fields</string>
+    <string name="enter_simple_interest">Enter Simple Interest</string>
+    <string name="enter_rate">Enter Rate</string>
+    <string name="enter_time_period">Enter Time Period</string>
+    <string name="enter_principal_amount">Enter Principal Amount</string>
+    <string name="calculate">Calculate</string>
+    <string name="simple_interest_h">SIMPLE INTEREST</string>
+    <string name="profit_amp_loss"><![CDATA[PROFIT & LOSS]]></string>
 
 </resources>
