@@ -19,6 +19,7 @@ public class Apticalculator extends AppCompatActivity {
         Button divisible = findViewById(R.id.divisibility);
         Button percentage = findViewById(R.id.percentages);
 
+
         hcflcm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

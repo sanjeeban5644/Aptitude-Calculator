@@ -8,7 +8,7 @@
     android:overScrollMode="never"
     android:padding="24dp"
     android:scrollbars="none"
-    android:background="#87CEEB"
+    android:background="#9B9B9B"
     tools:context=".MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,29 +30,58 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
             android:paddingTop="20dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/background1"
             >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/go_to_aptitude_calculator"
-                android:textSize="20dp"
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/go_to_aptitude_calculator"-->
+<!--                android:textSize="20dp"-->
 
-                android:textStyle="bold"
-                android:textColor="#A52A2A"
-                />
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="#A52A2A"-->
+<!--                />-->
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/my_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                android:text="@string/click"
-                android:backgroundTint="@color/white"
+                android:text="@string/go_to_aptitude_calculator"
+                android:backgroundTint="#FFB6C1"
+                android:layout_marginTop="20dp"
+
                 android:layout_marginLeft="20dp"
                 app:cornerRadius="10dp"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/gotoquiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="@string/take_a_quiz"
+                android:backgroundTint="#FFB6C1"
+                app:cornerRadius="10dp"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/gotoformulas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="@string/revise_formulas"
+                android:backgroundTint="#FFB6C1"
+                android:layout_marginBottom="25dp"
+                app:cornerRadius="10dp"/>
+
+
 
 
 

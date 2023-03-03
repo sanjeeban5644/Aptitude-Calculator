@@ -27,4 +27,6 @@
     <string name="of">of</string>
     <string name="calculate_value">Calculate Value</string>
     <string name="calculate_percentage">Calculate Percentage</string>
+    <string name="take_a_quiz"><![CDATA[Take a quiz ->]]></string>
+    <string name="revise_formulas"><![CDATA[revise formulas ->]]></string>
 </resources>
