@@ -41,12 +41,20 @@ public class divisibility extends AppCompatActivity {
                     for(int i = 2;i<=(int)f_num/2;i++){
                         if(f_num%i==0){
                             sb.append("\n\n-> Divisible by "+i+"");
-
                         }
                     }
                     String output = sb.toString();
-                    out.setText(output);
-                    Toast.makeText(getApplicationContext(),"Successful",Toast.LENGTH_SHORT).show();
+                    if(output.equals("")){
+                        //prime number
+                        out.setText(R.string.prime_output);
+                        Toast.makeText(getApplicationContext(),"Successful",Toast.LENGTH_SHORT).show();
+
+                    }else{
+                        //has factors
+                        out.setText(output);
+                        Toast.makeText(getApplicationContext(),"Successful",Toast.LENGTH_SHORT).show();
+                    }
+
                 }catch(RuntimeException e){
                     Toast.makeText(getApplicationContext(),"Invlid Input",Toast.LENGTH_SHORT).show();
                 }

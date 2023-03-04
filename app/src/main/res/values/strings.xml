@@ -44,5 +44,6 @@
     <string name="calculate">Calculate</string>
     <string name="simple_interest_h">SIMPLE INTEREST</string>
     <string name="profit_amp_loss"><![CDATA[PROFIT & LOSS]]></string>
+    <string name="prime_output">The Number is Prime</string>
 
 </resources>
