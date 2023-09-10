@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.airbnb.lottie.LottieAnimationView;
+
 //public class MainActivity extends AppCompatActivity {
 //
 //    @Override
@@ -23,6 +25,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        LottieAnimationView animationView = findViewById(R.id.anim1);
+        animationView.setAnimation(R.raw.maths_anim2);
+        animationView.playAnimation(); // Optional: Play the animation programmatically
+
+
+
 
         // Get the Button view from the layout
         Button myButton = findViewById(R.id.my_button);
